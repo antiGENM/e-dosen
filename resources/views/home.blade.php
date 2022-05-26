@@ -30,7 +30,12 @@
                         
                         <form class="bg-white rounded shadow-5-strong p-5"> 
                         <h3 class="text-center font-weight-light">E-Dosen</h3>
-                            
+                            <div class="d-grid">
+                                <a class="btn btn-primary btn-lg mb-3" href="/login">Masuk</a>
+                            </div>
+                            <div class="d-grid">
+                                <a class="btn btn-primary btn-lg mb-3" href="/register">Daftar</a>
+                            </div>
 
                         </form>
                         </div>
