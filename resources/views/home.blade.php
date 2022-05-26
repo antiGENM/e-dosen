@@ -23,7 +23,7 @@
 
         <!-- Background image -->
         <div id="intro" class="bg-image">
-            <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8)">
+            <div class="mask d-flex align-items-center h-100" style="background-color: rgba(84, 88, 94, 0.8)">
                 <div class="container">
                     <div class="row justify-content-center row-xl-9">
                         <div class="col-xl-9 col-md-8">
@@ -32,8 +32,6 @@
                         <h3 class="text-center font-weight-light">E-Dosen</h3>
                             <div class="d-grid">
                                 <a class="btn btn-primary btn-lg mb-3" href="/login">Masuk</a>
-                            </div>
-                            <div class="d-grid">
                                 <a class="btn btn-primary btn-lg mb-3" href="/register">Daftar</a>
                             </div>
 
