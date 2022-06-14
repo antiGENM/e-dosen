@@ -30,7 +30,7 @@
              
               <form class="bg-white rounded shadow-5-strong p-5" action="register" method="post">
                 @csrf 
-                <h3 class="text-center font-weight-light ">Logo</h3>
+                <img src="img/logo.png" alt="Logo" style="width: 50px; height: 50px;">
                 <h3 class="text-center font-weight-light my-4">Register</h3> 
                 <div class="form-floating mb-3">
                   <input name="name" class="form-control"  id="name" type="text" placeholder="Name" >
