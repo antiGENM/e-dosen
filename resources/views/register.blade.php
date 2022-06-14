@@ -28,29 +28,30 @@
           <div class="row justify-content-center">
             <div class="col-xl-5 col-md-8">
              
-            <form class="bg-white rounded shadow-5-strong p-5"> 
-            <h3 class="text-center font-weight-light ">Logo</h3>
-                <h3 class="text-center font-weight-light my-4">Login</h3> 
+              <form class="bg-white rounded shadow-5-strong p-5" action="register" method="post">
+                @csrf 
+                <h3 class="text-center font-weight-light ">Logo</h3>
+                <h3 class="text-center font-weight-light my-4">Register</h3> 
                 <div class="form-floating mb-3">
-                        <input class="form-control"  id="Name" type="text" placeholder="" />
-                        <label for="inputName">Username</label>
-                    </div>               
-                    <div class="form-floating mb-3">
-                        <input class="form-control"  id="Name" type="text" placeholder="" />
-                        <label for="inputName">E-mail</label>
-                    </div> 
-                    <div class="form-floating mb-3">
-                        <input class="form-control"  id="Name" type="password" placeholder="" />
-                        <label for="inputName">Password</label>
-                    </div> 
-                    <div class="form-floating mb-3">
-                        <input class="form-control"  id="Name" type="password" placeholder="" />
-                        <label for="inputName">Konfirmasi Password</label>
-                    </div> 
+                  <input name="name" class="form-control"  id="name" type="text" placeholder="Name" >
+                  <label for="name">Username</label>
+                </div>               
+                <div class="form-floating mb-3">
+                  <input name="email" class="form-control"  id="email" type="email" placeholder="name@example.com" >
+                  <label for="email">E-mail</label>
+                </div> 
+                <div class="form-floating mb-3">
+                  <input name="password" class="form-control"  id="password" type="password" placeholder="Password">
+                  <label for="password">Password</label>
+                </div> 
+                <div class="form-floating mb-3">
+                  <input class="form-control"  id="password" type="password" placeholder="" />
+                  <label for="inputName">Konfirmasi Password</label>
+                </div> 
 
                 <!-- Submit button -->
                 <div class="d-grid">
-                    <a class="btn btn-primary btn-lg mb-3" href="/dashboard admin">Daftar</a>
+                  <a class="btn btn-primary btn-lg mb-3" type="submit">Daftar</a>
                 </div>
                 <div class="text-center">
                   <p>Sudah memiliki akun? <a href="/login">Login</a></p>
@@ -59,25 +60,24 @@
                       <hr>
                     </div>
                     <div class="col-2">
-                    <p>atau</p>
+                      <p>atau</p>
                     </div>
                     <div class="col">
                       <hr>
                     </div>               
-                  </div>
-                
+                  </div>                    
                 </div>
                 <div class="d-grid">
-                    <a class="btn btn-lg" href="/dashboard" >
-                      <div class="row row-cols-auto justify-content-center" >
-                        <div class="col-3">
+                  <a class="btn btn-lg" href="/dashboard" >
+                    <div class="row row-cols-auto justify-content-center" >
+                      <div class="col-3">
                         <img src="img/google.png" alt="" style="width: 20px; height: 20px;">
-                        </div>
-                        <div class="col">
-                          Login dengan Google
-                        </div>
                       </div>
-                    </a>
+                      <div class="col">
+                        Login dengan Google
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </form>
             </div>
