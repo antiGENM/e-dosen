@@ -44,10 +44,6 @@
                   <input name="password" class="form-control"  id="password" type="password" placeholder="Password">
                   <label for="password">Password</label>
                 </div> 
-                <div class="form-floating mb-3">
-                  <input class="form-control"  id="password" type="password" placeholder="" />
-                  <label for="inputName">Konfirmasi Password</label>
-                </div> 
 
                 <!-- Submit button -->
                 <div class="d-grid">
