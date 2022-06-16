@@ -87,7 +87,7 @@
 <!-- Publikasi -->
 
 <div class="mb-3">
-    <h5 class="mb-1">Proyek Penelitian</h5>
+    <h5 class="mb-1">Publikasi</h5>
     <div>
       <label for="fakultas" class="form-label">Judul (1)</label>
       <input type="text" class="form-control" id="fakultas">
@@ -133,7 +133,7 @@
               <input type="text" class="form-control" id="exampleInputEmail1">
           </div>
           <div class="col-2">
-              <label for="InputNama" class="form-label">Poin Saat Ini</label>
+              <label for="InputNama" class="form-label">Skor</label>
               <input type="text" class="form-control" id="exampleInputEmail1">
           </div>
       </div>
@@ -141,7 +141,7 @@
 
 <!-- Pengalaman -->
   <div class="mb-3">
-    <h5 class="mb-1">Proyek Penelitian</h5>
+    <h5 class="mb-1">Pengalaman</h5>
     <div class="row">
       <div class="col-6">
           <label for="InputNama" class="form-label">Tempat Pengabdian (1)</label>
