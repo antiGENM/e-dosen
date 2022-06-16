@@ -1,5 +1,5 @@
 <div id="layoutSidenav_nav">
-        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <nav class="sb-sidenav accordion sb-sidenav-dark bg-primary bg-opacity-75" id="sidenavAccordion">
           <div class="sb-sidenav-menu">
             <div class="nav">
               <a class="nav-link" href="/dashboard dosen">
@@ -16,7 +16,7 @@
               </a>
             </div>
           </div>
-          <div class="sb-sidenav-footer">
+          <div class="sb-sidenav-footer bg-primary bg-opacity-50">
             <div class="small">E-Dosen</div>
             RPL
           </div>
