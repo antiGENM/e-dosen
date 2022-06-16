@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Nunito -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+
+    <!-- Boostrap v.5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
     <title>E-Dosen</title>
-    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-    <link href="/css/dashboard.css" rel="stylesheet" />
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="sb-nav-fixed">
+</head>
+<body>
+    
+    @include('dashboard.layouts.navbar')
 
-  <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-      <!-- Navbar Brand-->
-      <a class="navbar-brand ps-3" href="dashboard.html">Logo</a>
-      <!-- Navbar-->
-      <a class="navbar-brand ms-auto" href='/'>Home</a>
-      <a class="navbar-brand ms-auto" href='/login'>Masuk</a>
-      <a class="navbar-brand ms-auto" href='/register'>Daftar</a>
-    </nav>
+    <section>
+        @yield('sidebar')
+        
+        <div class="container-fluid mx-0 ">
+            @yield('container')
+        </div>
+    </section>
 
-    <div id="layoutSidenav">
-
-      <div id="layoutSidenav_content">
-      @yield('container')
-      </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
-    <script src="/js/datatables-simple-demo.js"></script>
-  </body>
+    @include('dashboard.layouts.footer')
+    
+</body>
 </html>
-
-
