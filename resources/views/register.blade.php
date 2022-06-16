@@ -28,13 +28,13 @@
           <div class="row justify-content-center">
             <div class="col-xl-5 col-md-8">
              
-              <form class="bg-white rounded shadow-5-strong p-5" action="register" method="post">
+              <form class="bg-white rounded shadow-5-strong p-5" action="/register/store" method="post">
                 @csrf 
                 <img src="img/logo.png" alt="Logo" style="width: 50px; height: 50px;">
                 <h3 class="text-center font-weight-light my-4">Register</h3> 
                 <div class="form-floating mb-3">
-                  <input name="name" class="form-control"  id="name" type="text" placeholder="Name" >
-                  <label for="name">Username</label>
+                  <input name="username" class="form-control"  id="username" type="text" placeholder="Name" >
+                  <label for="username">Username</label>
                 </div>               
                 <div class="form-floating mb-3">
                   <input name="email" class="form-control"  id="email" type="email" placeholder="name@example.com" >
@@ -47,7 +47,7 @@
 
                 <!-- Submit button -->
                 <div class="d-grid">
-                  <a class="btn btn-primary btn-lg mb-3" type="submit">Daftar</a>
+                  <input class="btn btn-primary btn-lg mb-3" type="submit" value="Register">
                 </div>
                 <div class="text-center">
                   <p>Sudah memiliki akun? <a href="/login">Login</a></p>
