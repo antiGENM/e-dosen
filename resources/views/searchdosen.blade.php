@@ -31,7 +31,7 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>
-                    <a class="btn bg-blue btn-sm text-white" href="/portfolio">Portfolio</a>
+                    <a class="btn bg-blue btn-sm text-white" href="/portofolio">Portfolio</a>
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>
-                    <a class="btn bg-blue btn-sm text-white" href="/portfolio">Portfolio</a>
+                    <a class="btn bg-blue btn-sm text-white" href="/portofolio">Portfolio</a>
                 </td>
             </tr>
             <tr>
@@ -49,7 +49,7 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>
-                    <a class="btn bg-blue btn-sm text-white" href="/portfolio">Portfolio</a>
+                    <a class="btn bg-blue btn-sm text-white" href="/portofolio">Portfolio</a>
                 </td>
             </tr>
         </table>

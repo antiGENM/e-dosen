@@ -12,7 +12,7 @@
                 <h5>Jasa dan Layanan</h5>
                 <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="/portfolio" class="text-white" style="text-decoration: none;">Portfolio Dosen</a>
+                        <a href="/portofolio" class="text-white" style="text-decoration: none;">Portfolio Dosen</a>
                     </li>
                     <li>
                         <a href="/" class="text-white" style="text-decoration: none;">Membership</a>

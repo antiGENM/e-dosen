@@ -34,7 +34,7 @@
                         <b class="card-subtitle m-3" style="color: #FFB800; font-size: 40px;">123 Dosen</b>
                         <b class="card-text" style="font-size: 24px;">Dari Berbagai Universitas Di</b>
                         <b class="card-text" style="font-size: 32px;">Seluruh Indonesia</b>
-                        <a class="btn btn-lg bg-blue text-white m-3" href="/login" role="button">Register Now!</a>
+                        <a class="btn btn-lg bg-blue text-white m-3" href="/register" role="button">Register Now!</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     <h6 class="card-text">✓ Pengelolaan Publikasi</h6>
                     <h6 class="card-text">✓ Pengelolaan Kepangkatan</h6>
                 </div>
-                <a class="btn btn-lg text-white mt-5" href="/login" role="button" style="background-color: #5b5b5b;">Register Now!</a>
+                <a class="btn btn-lg text-white mt-5" href="/register" role="button" style="background-color: #5b5b5b;">Register Now!</a>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                     <h6 class="card-text">✓ Pengelolaan Publikasi</h6>
                     <h6 class="card-text">✓ Pengelolaan Kepangkatan</h6>
                 </div>
-                <a class="btn btn-lg text-white mt-5" href="/login" role="button" style="background-color: #FFB800">Register Now!</a>
+                <a class="btn btn-lg text-white mt-5" href="/register" role="button" style="background-color: #FFB800">Register Now!</a>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
                     <h6 class="card-text">✓ Pengelolaan Publikasi</h6>
                     <h6 class="card-text">✓ Pengelolaan Kepangkatan</h6>
                 </div>
-                <a class="btn btn-lg bg-blue text-white mt-5" href="/login" role="button">Register Now!</a>
+                <a class="btn btn-lg bg-blue text-white mt-5" href="/register" role="button">Register Now!</a>
             </div>
         </div>
     </div>
