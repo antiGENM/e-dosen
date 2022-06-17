@@ -75,6 +75,10 @@
                     </div>
                   </a>
                 </div>
+                <div class="d-grid">
+                  <hr>
+                  <a class="btn btn-lg" href="/">Kembali</a>
+                </div>
               </form>
             </div>
           </div>
