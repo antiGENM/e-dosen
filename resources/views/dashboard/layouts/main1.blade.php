@@ -11,7 +11,7 @@
   </head>
   <body class="sb-nav-fixed">
 
-  @include('dashboard1.layouts.header')
+  @include('dashboard.layouts.header1')
 
     <div id="layoutSidenav">
 
